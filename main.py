@@ -24,3 +24,16 @@ class Player(pygame.sprite.Sprite):
             else:
                 bullet = Bullet(gm.BULLET_R, self.rotate_left, self.rect.centerx, self.rect.centery)
             self.level.set_of_bullets.add()
+
+
+#we need:
+#character
+    #sprites
+    #movement
+    #guns and bullets
+#rocks
+    #how they die
+#big head
+    #how it acts
+#ui
+    #pionts
